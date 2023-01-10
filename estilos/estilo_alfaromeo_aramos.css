@@ -1,0 +1,17 @@
+#ficha{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+#piloto1{
+    height: 100%;
+    width: 20%;
+    border: 1px solid red;
+    float:left ;
+}
+#piloto2{
+    height: 100%;
+    width: 20%;
+    border: 1px solid red;
+    float: right;
+}
