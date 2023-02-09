@@ -15,22 +15,14 @@ body{
 }
 
 #menucentral {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    /* position:  relative; */
+    left: 20px;
     width: 60%;
     height: auto;
     text-align: center;
 }
-
-/* #tabla2{
-    border: 1px solid black;
-    width: 50%;
-    height: 300px;
-}
-
-#tabla21 td{
-    width: 100%;
-    border-radius: 20%;
-} */
 
 h1{
     color: darkblue;
@@ -43,60 +35,45 @@ h1{
     height: 1000px;
 }
 
-/* th, 
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-} */
 
 .alfaromeo {
     background-color: rgba(139, 0, 0, 0.144);
-    /* color: white; */
 }
 
 .alphatauri {
     background-color: rgba(32, 32, 94, 0.144);
-    /* color: rgb(255, 255, 255); */
 }
 
 .alpine {
     background-color: rgba(41, 41, 212, 0.144);
-    /* color: rgb(255, 159, 175); */
 }
 
 .astonmartin {
     background-color: rgb(22, 48, 33, 0.144);
-    /* color: rgb(179, 255, 0); */
 }
 
 .ferrari {
     background-color: rgb(216, 3, 3, 0.144);
-    /* color: gold; */
 }
 
 .haas {
     background-color: rgb(255, 255, 255, 0.144);
-    /* color: red; */
 }
 
 .mclaren {
     background-color: rgba(255, 140, 0, 0.144);
-    /* color: aqua; */
 }
 
 .mercedes {
     background-color: rgb(126, 125, 125, 0.144);
-    /* color: rgb(41, 211, 146); */
 }
 
 .redbull {
     background-color: rgb(0, 0, 82, 0.144);
-    /* color: rgb(250, 177, 41); */
 }
 
 .williams {
     background-color: rgb(0, 0, 139, 0.144);
-    /* color: aqua; */
 }
 
 .alfaromeo:hover {

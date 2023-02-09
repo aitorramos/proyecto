@@ -1,16 +1,30 @@
+#video{
+    width: 95%;
+    height: 600px;
+    border: 1px solid gold;
+    text-align: center;
+    font-style: initial;
+    font-family:'Courier New', Courier, monospace;
+}
+
 #ficha{
-    width: 100%;
-    height: 200px;
+    width: 90%;
+    height: 1000px;
     border: 1px solid black;
 }
 #piloto1{
-    height: 100%;
+    height: 400px;
     width: 20%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     float:left ;
 }
+#piloto1>img{
+    width: 400px;
+}
 #piloto2{
-    height: 100%;
+    position: relative;
+    top:500px;
+    height: 400px;
     width: 20%;
     border: 1px solid red;
     float: right;
