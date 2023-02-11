@@ -17,33 +17,57 @@ div.cuerpo{
 #cabecera{
     width: 100%;
     height: 150px;
-    /* border: 1px solid black; */
+
     background-color: rgb(185, 0, 0);
     clear:right ;
     position: sticky;
     top: 0px;
+    
+}
+
+#logo{
+    margin-top: 10px;
+    height: 50px;
 }
 
 #cabecera>div{
-    /* border: 1px solid black; */
+
     height: 50%;
+    text-align: center;
 }
 
 /* primer div */
 #img{
-    border: 1px solid rgb(82, 71, 71);
     width: 75px;
     height: 97%;
     float: left;
+
 }
-#f1, #fia, #foro{
-    border: 1px solid black;
+#img>img{
+    margin-top: 3px;
+    width: 75px;
+    border-radius: 50%;
+}
+#f1, #fia {
     float: right;
-    height: 97%;
+    height: 100%;
     width: 10%;
     text-align: center;
+    background-color: white;
 }
 
+#f1>img{
+    margin-top: 10px;
+    padding: 5px;
+    width: 120px;
+    /* background-color: white; */
+}
+
+
+#fia>img{
+    height: 50px;
+    padding: 10px;
+}
 /* segundo div */
 nav{
     height: 50%;
@@ -51,9 +75,8 @@ nav{
 }
 
 .eq{
-    /* border: 1px solid red; */
     color: white;
-    position: relative;
+    /* position: relative; */
     display: inline-block;
     width: 8.8%;
     height: 95%;
@@ -64,8 +87,6 @@ nav{
 }
 
 img.coche{
-    /* padding: 10px; */
-    /* width: 100px; */
     display: none;
     transition: 1s;
 }

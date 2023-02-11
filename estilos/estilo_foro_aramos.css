@@ -1,10 +1,10 @@
-#cuerpo{
+/* #cuerpo{
     width: 90%;
     height: 1000px;
     border: 1px solid black;
     margin-top: 30px;
     background-color: white;
-}
+} */
 .cuerpo>div{
     margin-top: 20px;
     width: 80%;
