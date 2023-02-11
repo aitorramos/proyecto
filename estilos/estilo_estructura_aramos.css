@@ -3,9 +3,15 @@
     padding: 0px;
 }
 
-/* body{
-    
-} */
+body{
+    background-image: url(../imagenes/fondo2.jpg);
+}
+
+div.cuerpo{
+    background-color: white;
+    width: 85%;
+    padding: 10px;
+}
 
 /* correspondiente a la cabecera */
 #cabecera{
@@ -77,7 +83,7 @@ div.eq:hover img{
     display: block;
     background-color: lightgray;
     border-radius: 50%;
-    transition:padding 10px 2s;
+    transition:padding 10px 1s;
     
 }
 
@@ -127,4 +133,19 @@ div.eq:hover img{
 #wr:hover{
     background-color: rgb(0, 0, 139);
     color: aqua;
+}
+/* pie */
+#pie{
+    background-color: dimgrey;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+#pie>a{
+    margin-top: 20px;
+    display: inline-block;
+}
+#pie img{
+    height: 40px;
+    border-radius: 50%;
 }

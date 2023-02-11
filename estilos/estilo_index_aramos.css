@@ -2,17 +2,7 @@
     margin: 0 auto;
     padding: 0px;
 }
-body{
-    background-color: azure;
-}
 
-#menulateral {
-    width: 19%;
-    height: 300px;
-    border: 1px solid black;
-    float: left;
-    clear: both;
-}
 
 #menucentral {
     /* border: 1px solid red; */
