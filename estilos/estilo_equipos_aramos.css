@@ -7,7 +7,6 @@
     font-style: initial;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 10px;
-    /* border: 1px solid red; */
 }
 
 #texto{
@@ -15,7 +14,6 @@
     float:left;
     text-align: center;
     width: 31%;
-    clear: right;
 }
 table{
     text-align: left;
@@ -86,7 +84,6 @@ video {
     margin-top: 20px;
     height: 400px;
     text-align: center;
-    /* border: 1px solid red; */
     border-radius: 10px;
 }
 
@@ -106,6 +103,9 @@ video {
 
 @media (max-width:1180px){
     video{
-        height: 320px;
+        height: 200px;
+    }
+    div#video.ferrari{
+        height: 400px;
     }
 }
