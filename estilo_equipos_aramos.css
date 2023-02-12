@@ -1,0 +1,112 @@
+
+#video {
+    margin-top: 20px;
+    width: 90%;
+    height: 400px;
+    text-align: center;
+    font-style: initial;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+#texto{
+    margin-top: 10px;
+    float:left;
+    text-align: center;
+    width: 31%;
+    clear: right;
+}
+table{
+    text-align: left;
+}
+video {
+    height: 400px;
+    float: right;
+    border-radius: 10px;
+}
+
+
+#ficha {
+    width: 85%;
+    font-size: large;
+    margin-top: 20px;
+}
+.alfaromeo {
+    background-color: darkred;
+    color: white;
+}
+
+.alphatauri {
+    background-color: rgb(32, 32, 94);
+    color: rgb(255, 255, 255);
+}
+
+.alpine {
+    background-color: rgb(41, 41, 212);
+    color: rgb(255, 159, 175);
+}
+
+.astonmartin {
+    background-color: rgb(22, 48, 33);
+    color: rgb(179, 255, 0);
+}
+
+.ferrari {
+    background-color: rgb(216, 3, 3);
+    color: gold;
+}
+
+.haas{
+    background-color: white;
+    color: red;
+}
+
+.mclaren {
+    background-color: darkorange;
+    color: aqua;
+}
+
+.mercedes {
+    background-color: rgb(126, 125, 125);
+    color: rgb(41, 211, 146);
+}
+
+.redbull {
+    background-color: rgb(0, 0, 82);
+    color: rgb(250, 177, 41);
+}
+
+.williams {
+    background-color: rgb(0, 0, 139);
+    color: aqua;
+}
+
+.piloto {
+    margin-top: 20px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.piloto>img {
+    width: 400px;
+    float: left;
+    border-radius: 50%;
+}
+
+.piloto>h3{
+    padding: 20px;
+}
+
+.piloto>table{
+    text-align: left;
+}
+
+@media (max-width:1180px){
+    video{
+        height: 290px;
+    }
+    div#video.ferrari{
+        height: 500px;
+    }
+}
