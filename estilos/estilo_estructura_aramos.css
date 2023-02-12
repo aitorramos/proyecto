@@ -185,4 +185,13 @@ div.eq:hover img{
         margin: 0px;
         transition: 1s;
     }
-}
+        div.eq:hover img {
+            margin-top: 20px;
+            width: 80px;
+            display: block;
+            background-color: lightgray;
+            border-radius: 50%;
+            transition: padding 10px 1s;
+    
+        }
+    }
