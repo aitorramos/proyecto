@@ -103,9 +103,9 @@ video {
 
 @media (max-width:1180px){
     video{
-        height: 300px;
+        height: 200px;
     }
     div#video.ferrari{
-        height: 400px;
+        height: 600px;
     }
 }
