@@ -17,12 +17,10 @@ div.cuerpo{
 #cabecera{
     width: 100%;
     height: 150px;
-
     background-color: rgb(185, 0, 0);
     clear:right ;
     position: sticky;
     top: 0px;
-    
 }
 
 #logo{
@@ -31,7 +29,6 @@ div.cuerpo{
 }
 
 #cabecera>div{
-
     height: 50%;
     text-align: center;
 }
