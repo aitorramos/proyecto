@@ -1,0 +1,197 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../imagenes/fondo2.jpg);
+}
+
+div.cuerpo{
+    background-color: white;
+    width: 85%;
+    padding: 10px;
+}
+
+/* correspondiente a la cabecera */
+#cabecera{
+    /* width: 100%; */
+    height: 150px;
+    background-color: rgb(185, 0, 0);
+    clear:right ;
+    position: sticky;
+    top: 0px;
+}
+
+#logo{
+    margin-top: 10px;
+    height: 50px;
+}
+
+#cabecera>div{
+    height: 50%;
+    text-align: center;
+}
+
+/* primer div */
+#img{
+    width: 75px;
+    height: 97%;
+    float: left;
+
+}
+#img>img{
+    margin-top: 3px;
+    width: 75px;
+    border-radius: 50%;
+}
+#f1, #fia {
+    float: right;
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    background-color: white;
+}
+
+#f1>img{
+    margin-top: 10px;
+    padding: 5px;
+    width: 120px;
+    /* background-color: white; */
+}
+
+
+#fia>img{
+    height: 50px;
+    padding: 10px;
+}
+/* segundo div */
+nav{
+    height: 50%;
+    background-color: black;    
+}
+
+.eq{
+    color: white;
+    position: relative;
+    display: inline-block;
+    width: 8.8%;
+    height: 95%;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    transition: 1s;
+
+}
+
+img.coche{
+    display: none;
+    transition: 1s;
+}
+
+.eq:hover{
+    height: 100px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    transition: 1s;
+}
+
+div.eq:hover img{
+    margin-top:20px ;
+    width: 100px;
+    display: block;
+    background-color: lightgray;
+    border-radius: 50%;
+    transition:padding 10px 1s;
+    
+}
+
+#ar:hover{
+    background-color: darkred;
+}
+
+#at:hover{
+    background-color: rgb(32, 32, 94);
+}
+
+#ap:hover{
+    background-color: rgb(41, 41, 212);
+    color: rgb(255, 159, 175);
+}
+
+#am:hover{
+    background-color: rgb(22, 48, 33);
+    color: rgb(179, 255, 0);
+}
+
+#sf:hover{
+    background-color: rgb(216, 3, 3);
+    color: gold;
+}
+
+#hs:hover{
+    background-color: white;
+    color: red;
+}
+
+#ml:hover{
+    background-color: darkorange;
+    color: aqua;
+}
+
+#ma:hover{
+    background-color: rgb(126, 125, 125);
+    color: rgb(41, 211, 146);
+}
+
+#rb:hover{
+    background-color: rgb(0, 0, 82);
+    color: rgb(250, 177, 41);
+}
+
+#wr:hover{
+    background-color: rgb(0, 0, 139);
+    color: aqua;
+}
+/* pie */
+#pie{
+    background-color: dimgrey;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+#pie>a{
+    margin-top: 20px;
+    display: inline-block;
+}
+#pie img{
+    height: 40px;
+    border-radius: 50%;
+}
+
+@media (max-width: 1180px) {
+    #f1>img{
+        margin-top: 10px;
+        padding: 5px;
+        width: 90px;
+    }
+    .eq{
+        color: white;
+        float: left;
+        width: 8.8%;
+        height: 95%;
+        text-align: center;
+        padding: 5px;
+        margin: 0px;
+        transition: 1s;
+    }
+        div.eq:hover img {
+            margin-top: 20px;
+            width: 90px;
+            display: block;
+            background-color: lightgray;
+            border-radius: 50%;
+            transition: padding 10px 1s;
+    
+        }
+    }
