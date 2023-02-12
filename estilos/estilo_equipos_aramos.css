@@ -103,7 +103,7 @@ video {
 
 @media (max-width:1180px){
     video{
-        height: 250px;
+        height: 260px;
     }
     #video {
         height: 400px;
